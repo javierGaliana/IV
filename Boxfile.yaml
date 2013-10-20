@@ -3,12 +3,14 @@ web1:
   document_root: practica1
   index_list: [practica1/periodico/index.php]
   php_extension:
-    - mysql
+    - mysqli
+    - curl
+    
     - pdo
     - pdo_mysql
 
 db1:
-  name: usuarios
+  name: periodico
   type: mysql
 
 cache1:
