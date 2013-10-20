@@ -1,0 +1,13 @@
+web1:
+  name: periodico
+  document_root: practica 1/periodico
+  php_extension:
+    - mysql
+
+db1:
+  name: usuarios
+  type: mysql
+
+cache1:
+  name: sessions
+  type: memcached
