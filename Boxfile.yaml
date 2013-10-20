@@ -1,6 +1,7 @@
 web1:
   name: periodico
-  document_root: practica\ 1/periodico
+  document_root: practica1
+  index_list: [practica1/periodico/index.php]
   php_extension:
     - mysql
 
