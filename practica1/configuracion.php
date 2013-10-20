@@ -1,6 +1,6 @@
 <?php
-  define("DB_DSN", "mysql:host=tunnel.pagodabox.com;dbname=periodico;port=3306" ); 
-  define("DB_USUARIO", "dierdre" ); 
-  define("DB_CONTRASENIA", "fWjetzc3" ); 
+  define("DB_DSN", "mysql:host=$_SERVER['db1_HOST'];dbname=$_SERVER['db1_NAME'];port=$_SERVER['db1_port']"); 
+  define("DB_USUARIO", "$_SERVER['db1_USER']" ); 
+  define("DB_CONTRASENIA", "$_SERVER['db1_PASS']" ); 
 ?>
 
