@@ -7,7 +7,7 @@
     <title> Diario INDEP, información veraz. </title>
     <script type="text/javascript" src="../javascript/funciones.js"> </script>
     <?php
-       echo $_SERVER['db1_HOST'];
+       echo $_SERVER['DB1_HOST'];
        include_once('../configuracion.php');
 
         
