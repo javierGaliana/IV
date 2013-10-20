@@ -4,6 +4,8 @@ web1:
   index_list: [practica1/periodico/index.php]
   php_extension:
     - mysql
+    - pdo
+    - pdo_mysql
 
 db1:
   name: usuarios
