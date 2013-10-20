@@ -1,0 +1,240 @@
+*{
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+
+.politica h1:first-letter,.politica h2:first-letter, .politica h3:first-letter,.politica h4:first-letter,
+.politica h5:first-letter{
+  color:#0000FF;	
+}
+
+.cultura h1:first-letter,.cultura h2:first-letter,.cultura h3:first-letter,.cultura h4:first-letter,
+.cultura h5:first-letter{
+  color:#ff70cb;	
+}
+
+.deportes  h1:first-letter, .deportes h2:first-letter, .deportes h3:first-letter, .deportes h4:first-letter, 
+.deportes h5:first-letter{
+  color:#00aa00;	
+}
+
+.internacional h1:first-letter, .internacional h2:first-letter, .internacional h3:first-letter,
+.internacional h4:first-letter, .internacional h5:first-letter{
+  color:#ff7800;	
+}
+
+ h1.nombre:first-letter{
+    color:#ffffff;	
+}
+
+
+img{
+  max-width: 100%;/* Para obligar a la imagen a ocupar*/
+  		  /*como máximo el tamaño del recinto.*/
+}
+
+br{
+ clear:both;	
+}
+
+.main div#logo{
+  float:left;
+  width:100%;
+}
+
+img.noticia{
+  border-radius:10px;
+}
+
+div.leftad
+{
+   float:left ;
+   width:20%;
+   max-width:20%;
+   min-width:0px;
+}
+
+.leftad img{
+  max-width:100%;
+  min-width:0px;
+}
+
+.leftad div.der{
+  float:right;
+}
+
+div.upad
+{
+   float:left;
+   width:60%; 
+   
+}
+
+div.rightad
+{
+   width:20%;
+   float:right;
+}
+
+.rightad div.izq
+{
+  float:left;
+  padding:0px;
+  margin-left:0px;
+
+}
+
+div.main{
+  float:left;
+  width:60%;
+  padding-left:1px;
+  padding-right:1px;
+
+}
+
+div.secciones{
+ width:100%;
+ float:left;
+}
+
+.celda{
+  float:left;
+  list-style-type:none;
+  padding-left:3px;
+  padding-right: 3px;
+  margin-right:1px;
+  border:1px solid;
+  border-radius:10px;
+}
+.celda.politica{
+   background-color:#0070FF;
+   color:#ffffff;
+}
+
+.celda.deportes{
+   background-color:#00ff00;
+   color:#ffffff;
+}
+
+.celda.cultura{
+   background-color:#ffc0cb;
+   color:#ffffff;	
+}
+
+.celda.internacional{
+   background-color:#ff8000;
+   color:#ffffff;
+}
+
+li a{
+  display:block;
+  text-decoration:none; 
+}
+
+.politica .nombre{
+   float:left;
+   background-color:#0070FF;
+   width:100%;
+   padding-top:5%;
+   color:#ffffff;
+   padding-left:5%;
+}
+
+.cultura .nombre{
+   float:left;
+   background-color:#ffc0cb;
+   width:100%;
+   padding-top:5%;
+   color:#ffffff;
+   padding-left:5%;
+}
+
+.deportes .nombre{
+   float:left;
+   background-color:#009900;
+   width:100%;
+   padding-top:5%;
+   color:#ffffff;
+   padding-left:5%;	
+}
+
+.internacional .nombre{
+   float:left;
+   background-color:#ff8000;
+   width:100%;
+   padding-top:5%;
+   color:#ffffff;
+   padding-left:5%;
+}
+
+
+.main .noticia{
+  float:left;
+  width:60%;
+  min-width:400px;
+  padding-left:3%;
+  padding-right:3%;
+}
+
+.noticia img#posizq{
+   float:left;
+}
+
+img#poscentro{
+   width:100%;
+   float:left;
+}
+
+p.imgfoot{
+   padding-top:0px;
+   margin-top:0px;
+   font-size:70%;  
+}
+
+div#relacionadas{
+   width:40%;
+   float:left;
+   min-width:100px;
+   padding:3%;
+   height:500px;
+   border:1px solid;
+}
+/* comentarios de la gente */
+div#comentarios{
+   width:60%;
+   float:left;
+   padding-left:1%;
+   padding-right:1%;
+}
+
+#comentarios div.comentario{
+   width:100%;
+   padding:5%;
+
+   border:solid 1px;
+   float:left;
+   margin:1em;
+   margin-left:0px;
+}
+
+div.comentario div.usuario{
+   width:100%;
+   border-bottom:1px dashed;
+}
+
+div.comentario div.texto{
+   width:100%;   
+   border-bottom:1px dashed;
+   padding-top:5%;
+   padding-bottom:5%;
+}
+
+div.comentario div.fecha{
+   margin-top:1%;
+   clear:both;
+   float:right;
+   padding-bottom:0px;
+}
+
+
