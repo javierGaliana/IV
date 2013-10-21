@@ -15,4 +15,4 @@ db1:
 
 cache2:
   name: sessions
-  type: memcached
+  type: redis
