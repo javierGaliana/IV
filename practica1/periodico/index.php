@@ -32,7 +32,7 @@
  #      }
        //Barra de identificación como usuario-registro o 'log off'
 /*       if(!$_SESSION["usuario"]){
-         echo " 
+*/         echo " 
          <script type='text/javascript'>
 	    window.onload= function(){
 	       //Texto
@@ -58,9 +58,9 @@
                mostrar();
 	    }
          </script> ";
-       }
+ /*      }
        else{
- */        echo "
+         echo "
           <script type='text/javascript'>
 	    window.onload= function(){
             //Texto
@@ -78,8 +78,8 @@
             }
          
          </script>";
-  #    }
-
+      }
+*/
       //mostrar las noticias de novedades.
       try{$conexion = new PDO(DB_DSN,DB_USUARIO,DB_CONTRASENIA);}catch(PDOException $e){ echo"No se pudo realizar la conexión: ".$e->getMessage();}
        if(!empty($_POST["pag"])){
