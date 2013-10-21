@@ -12,6 +12,6 @@ db1:
   name: periodico
   type: mysql
 
-cache1:
+cache2:
   name: sessions
   type: memcached
