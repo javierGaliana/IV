@@ -14,6 +14,7 @@ web1:
     - pdo_sqlite
     - pdo_mysql
     - redis
+    - gd
   php_session_save_handler: redis
   php_session_save_path: "tcp://tunnel.pagodabox.com:6379"
 
