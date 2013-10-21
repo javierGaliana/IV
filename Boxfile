@@ -2,7 +2,9 @@ web1:
   name: periodico
   document_root: practica1/periodico
   index_list: [practica1/periodico/index.php]
+  php_version: 5.8.10
   php_extensions:
+    - http
     - mysqli
     - curl
     - pdo
