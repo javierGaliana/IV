@@ -1,11 +1,12 @@
 web1:
   name: periodico
-  document_root: practica1
+  document_root: practica1/periodico
   index_list: [practica1/periodico/index.php]
   php_extension:
     - mysqli
     - curl
     - pdo
+    - pdo_sqlite
     - pdo_mysql
 
 db1:
