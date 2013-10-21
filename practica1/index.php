@@ -7,7 +7,7 @@
     <title> Diario INDEP, información veraz. </title>
     <script type="text/javascript" src="javascript/funciones.js"> </script>
     <?php
-       include_once('../configuracion.php');
+       include_once('configuracion.php');
 
         
        session_start();
@@ -39,13 +39,13 @@
 	       var bienvenida= document.createTextNode('Bienvenido a la web del Diario Indep, puede identificarse o crear una cuenta.');
 	       //Enlace iniciar sesión
 	       var link = document.createElement('a');
-               link.setAttribute('href','../php/login.php');
+               link.setAttribute('href','php/login.php');
 	       link.setAttribute('id','sesion');
                var text = document.createTextNode('Iniciar sesión');
 
 	       //Enlace para registrarse 
 	       var nuevo = document.createElement('a');
-               nuevo.setAttribute('href','../php/alta.php');
+               nuevo.setAttribute('href','php/alta.php');
 	       nuevo.setAttribute('id','nuevo');
                var textNuevo = document.createTextNode('Registrarse');
 	
@@ -67,7 +67,7 @@
 	       var bienvenida= document.createTextNode('Bienvenido de nuevo ".$_SESSION["usuario"]."');
 	       //Enlace iniciar sesión
 	       var link = document.createElement('a');
-               link.setAttribute('href','../php/logout.php');
+               link.setAttribute('href','php/logout.php');
 	       link.setAttribute('id','logout');
                var text = document.createTextNode('Cerrar sesión');
 	       document.getElementById('iniciarSesion').appendChild(bienvenida);
@@ -147,18 +147,18 @@
 
     <div class="leftad" >
        <div class="der">
-         <img  src="../publicidad/fairyizq.jpg" alt="fairy">
+         <img  src="publicidad/fairyizq.jpg" alt="fairy">
        </div> 
     </div>
     
     
     
     <div class="upad"> 
-          <img src="../publicidad/fairyup.jpg" alt="fairy"> 
+          <img src="publicidad/fairyup.jpg" alt="fairy"> 
     </div>
     
     <div class="rightad">
-       <div class="izq">  <img src="../publicidad/fairyizq.jpg" alt="fairy"> </div> 
+       <div class="izq">  <img src="publicidad/fairyizq.jpg" alt="fairy"> </div> 
     </div>
 
     
@@ -166,7 +166,7 @@
     <!-- A partir de aquí está contenido de la portada. -->
     <div class="main">
 	<div id="logo">
-          <a href="index.php"><img  src="../logo/indep.jpg" alt="indep"> </a>
+          <a href="index.php"><img  src="logo/indep.jpg" alt="indep"> </a>
 	</div>
 
 	<div id="iniciarSesion">
@@ -187,7 +187,7 @@
             <h2><a href="internacional/hombre_dispara_dos_policias_20130428.php">Un hombre dispara a dos policías ante la sede del Gobierno en Italia</a></h2>
             <p> El ataque ha ocurrido mientras el nuevo Ejecutivo juraba el cargo. El atacante ha declarado al 
             	fiscal que es desempleado y está desesperado. "Quería disparar a los políticos", ha dicho</p>
-            <img class="noticia"src="../images/hombre_dispara_dos_policias_20130428" alt="hombre_disparado" >
+            <img class="noticia"src="images/hombre_dispara_dos_policias_20130428" alt="hombre_disparado" >
             <p class="imgfoot">
 		ATENTADO EN ITALIA. Un carabiniere yace en el suelo tras ser disparado frente al Palacio 
 		Chigi en Roma / GIAMPIERO SPOSITO (REUTERS)
@@ -197,7 +197,7 @@
           </div>
 
 	  <div class="notprin">
-	    <img class="noticia" src="../images/miles_personas_contra_recortes_20130428" alt="contra_recortes" >
+	    <img class="noticia" src="images/miles_personas_contra_recortes_20130428" alt="contra_recortes" >
             <p class="imgfoot">
 		Cabecera de la manifestación contra los recortes en Cataluña / A.Olivé (EFE)
             </p>
@@ -207,7 +207,7 @@
           </div>
 
 	  <div class="notprin">
-	    <img class="noticia" src="../images/anatomia_de_decreto_limitado_20130428" alt="anatomia_decreto" >
+	    <img class="noticia" src="images/anatomia_de_decreto_limitado_20130428" alt="anatomia_decreto" >
             <p class="imgfoot">
 		Carlos y Verónica, una pareja que está a punto de ser desahuciados. / G. Lejarcegi
             </p>
@@ -217,7 +217,7 @@
           </div>
 
 	  <div class="notprin">
-	    <img class="noticia" src="../images/catar_diplomacia_del_balon_20130428" alt="catar_diplomacia" >
+	    <img class="noticia" src="images/catar_diplomacia_del_balon_20130428" alt="catar_diplomacia" >
             <p class="imgfoot">
 		Edificios de Doha (Catar). / Bruno Barbey
             </p>
@@ -236,7 +236,7 @@
 	
 	   <div class="notsec">
 		<div>
-		  <img class="centro" src="../images/oliver_coronan_helen_mirren_20130428" alt="helen_mirren">
+		  <img class="centro" src="images/oliver_coronan_helen_mirren_20130428" alt="helen_mirren">
 	  	  <h5><a href="cultura/oliver_coronan_helen_mirren_20130428.php" >Los Olivier coronan a Helen Mirrena</a></h5>
 	  	</div>
 		  <p>La actriz recibe el galardón más prestigioso del teatro británico</p>
@@ -245,20 +245,20 @@
 	   <br /><br />
 	  
 	  <div class="notsec">
-		  <img class="centro" src="../images/juan_gelman_instalado_sistema_20130429" alt="recortar_espiritu">
+		  <img class="centro" src="images/juan_gelman_instalado_sistema_20130429" alt="recortar_espiritu">
 	  	  <h5><a href="cultura/juan_gelman_instalado_sistema_20130429.php">Juan Gelman: “Se ha instalado todo un sistema para recortarnos el espíritu”</a></h5>
 		  <p>Gelman alerta del “acostumbramiento” y ultima la publicación de su libro, ‘Hoy’</p>
 	  </div>
 	<br /><br />
 
 	  <div class="notsec">
-		 <img class="centro" src="../images/pau_gasol_siempre_fiel_20130430" alt="pau_gasol">
+		 <img class="centro" src="images/pau_gasol_siempre_fiel_20130430" alt="pau_gasol">
 	  	 <h5><a href="deportes/pau_gasol_siempre_fiel_20130430.php">Pau Gasol: “Siempre he sido un tipo leal”</a></h5> 
 		 <p>El jugador expresa su deseo de permanecer en los Lakers y no confirma su presencia en el Europeo</p>
 	  </div>
 	<br /><br />
 	   <div class="notsec">
-		 <img class="centro" src="../images/teoria_del_pobre_perpetuo_20130502" alt="mr_talese">
+		 <img class="centro" src="images/teoria_del_pobre_perpetuo_20130502" alt="mr_talese">
 	  	 <h5><a href="cultura/teoria_del_pobre_perpetuo_20130502.php">La teoría del pobre perpetuo</a></h5>
 		 <p>El antropólogo francés Marc Augé analiza en su nuevo ensayo las tensiones causadas por el fracaso de las utopías y la ausencia de alternativas políticas</p>
 	  </div>
@@ -266,7 +266,7 @@
 	<br /><br />
     	
 	    <div class="otras">
-	      <img class="centroabajo" src="../images/caperucita_doctora_en_manhattan_20130429" alt="caperucita">
+	      <img class="centroabajo" src="images/caperucita_doctora_en_manhattan_20130429" alt="caperucita">
 	      <h4><a href="cultura/caperucita_doctora_en_manhattan_20130429">Caperucita, doctora en Manhattan</a></h4>
   	      <p>Carmen Martín Gaite, convertida en un clásico de la literatura española en universidades de EE UU por 'Caperucita en Manhattan'</p>
   	    </div>
@@ -274,7 +274,7 @@
          <br />
     
             <div class="otras">
-	      <img class="centroabajo" src="../images/estudiante_que_salvo_mundo_20130428" alt="estudiante_mundo">
+	      <img class="centroabajo" src="images/estudiante_que_salvo_mundo_20130428" alt="estudiante_mundo">
 	      <h4><a href="internacional/estudiante_que_salvo_mundo_20130428.php">El estudiante que salvó al mundo de la austeridad</a></h4>
   	      <p>Un alumno de 28 años desmontó el informe de dos economistas de Harvard</p>
   	    </div>
@@ -327,7 +327,7 @@
             if($_SESSION["usuario"]=='admin'){
                 
                 
-                  // <script type='text/javascript' src='../javascript/administracion.js'> </script>   
+                  // <script type='text/javascript' src='javascript/administracion.js'> </script>   
                     
                  
 
@@ -345,7 +345,7 @@
     <div id="publicidad">
     		<br />
                 
-    		<img id='publiDerecha'  src="../publicidad/seat_leon.gif" alt="seat leon">
+    		<img id='publiDerecha'  src="publicidad/seat_leon.gif" alt="seat leon">
                 <?php 
                       // Elimina el anuncio de debajo de Novedades.
                       if($_SESSION["usuario"]=='admin'){
@@ -356,7 +356,7 @@
                          </script>";
 
 		      echo "
-                      <script type='text/javascript' src='../javascript/administracion.js'></script>
+                      <script type='text/javascript' src='javascript/administracion.js'></script>
                       <div id='administracion'> <br>
                          <a id ='botonAniadir' onclick='aniadirFunc()' > Añadir </a>
                          <a id='botonEliminar' onclick='eliminarFunc();'> Eliminar </a>
@@ -397,7 +397,7 @@
     	<div> Calle Falsa 123 Granada, CP 18000 </div>
     	<div class="suscribete"> <a href="formulario.html"> ¡Suscríbete!</a> </div>
     	<div> Teléfono 958-999-999 </div>
-    	<div class="comosehizo"> <a href="../pdf/comoSeHizo.pdf" >¡cómo se hizo!</a> </div>
+    	<div class="comosehizo"> <a href="pdf/comoSeHizo.pdf" >¡cómo se hizo!</a> </div>
     	<div><a href="mailto:webmaster@indep.com"> Contacto </a></div>
     	<br/><br/>
     	
