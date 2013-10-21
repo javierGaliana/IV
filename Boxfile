@@ -1,7 +1,7 @@
 web1:
   name: periodico
-  document_root: practica1/periodico
-  index_list: [practica1/periodico/index.php]
+  document_root: practica1/
+  index_list: [practica1/index.php]
   shared_writable_dirs:
     - /storage/cache
     - /storage/database
