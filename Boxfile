@@ -9,10 +9,4 @@ web1:
     - pdo_sqlite
     - pdo_mysql
 
-db1:
-  name: periodico
-  type: mysql
 
-cache2:
-  name: sessions
-  type: redis
