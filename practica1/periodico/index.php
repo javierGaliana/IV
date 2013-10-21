@@ -10,9 +10,9 @@
        include_once('../configuracion.php');
 
         
-  //     //session_start();
+       session_start();
        //añadir una noticia a últimas novedades
-//       if($_SESSION["usuario"] == "admin"){
+       if($_SESSION["usuario"] == "admin"){
           if(!empty($_POST["nombreAniadir"])){
              try{$conexion = new PDO(DB_DSN,DB_USUARIO,DB_CONTRASENIA);}catch(PDOException $e){ echo"No se pudo realizar la conexión: ".$e->getMessage();}
                $consulta = "Insert into nuevasNoticias set usuario='".$_POST["nombreAniadir"]."',texto='".$_POST["nuevaNoticia"]."';";
@@ -29,7 +29,7 @@
           }
           
          
- //      }
+       }
        //Barra de identificación como usuario-registro o 'log off'
        if(!$_SESSION["usuario"]){
          echo " 
