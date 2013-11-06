@@ -3,4 +3,4 @@ Ejercicios Tema 2
 Ejercicio 1.
 ------------
 En este ejercicio teníamos que crear un NameSpace de tipo montaje. Esto se hacía con el comando:
-![Alt text](/ejerciciosTema2/pics/unshare.png "Unshare")
+![ScreenShoot](https://raw.github.com/javierGaliana/ejerciciosTema2/master/pics/unshare.png "Unshare")
