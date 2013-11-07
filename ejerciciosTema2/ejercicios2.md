@@ -70,6 +70,6 @@ Un programa interesante a tener es VIM ya que nos permite desde la propia termin
 
 Ahora creamos un programa de python y lo lanzamos para ver el funcionamiento en la jaula.
 
-![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot7s.png  "chroot")
+![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot7.png  "chroot")
 
 ¡Ya podemos trabajar en la jaula!
