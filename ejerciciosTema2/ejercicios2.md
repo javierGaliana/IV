@@ -73,3 +73,43 @@ Ahora creamos un programa de python y lo lanzamos para ver el funcionamiento en 
 ![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot7.png  "chroot")
 
 ¡Ya podemos trabajar en la jaula!
+
+Ejercicio 5
+-----------
+
+Para este ejercicio continuamos con el SO Ubuntu "Lucid". En esta ocasión vamos a instalar el servidor web nginx.
+
+Primero de todo debemos descargarnos una llave pública
+
+![nginx](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/nginx.png  "nginx")
+
+Ahora añadimos dicha llave a apt-key
+
+![nginx](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/nginx2.png  "nginx")
+
+Para que apt busque en el repositorio de nginx debemos cambiar
+
+![nginx](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/nginx3.png  "nginx")
+
+añadiendo al final las dos últimas líneas
+
+![nginx](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/nginx4.png  "nginx")
+
+Hacemos apt-get update y vemos como busca en los repositorios añadidos.
+
+![nginx](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/nginx5.png  "nginx")
+
+Ahora ya podemos instalar de la manera habitual
+
+![nginx](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/nginx6.png  "nginx")
+
+¡Ya tenemos nuestro servidor instalado en el SO enjaulado! Eso sí, hay que asegurarse que el puerto 80 no esté unido a otro servicio por ejemplo apache2 en la máquina anfitrión.
+Para comprobar que funciona primero hacemos 
+
+![nginx](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/nginx7.png  "nginx")
+
+Ahora desde un navegador del anfitrión poniendo en la url localhost vemos
+
+![nginx](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/nginx8.png  "nginx")
+
+¡El servidor está corriendo!
