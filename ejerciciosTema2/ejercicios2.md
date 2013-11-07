@@ -42,3 +42,34 @@ Ahora con el programa rinse creamos otra jaula pero con una distribución Fedora
 Ya tenemos instaladas 2 jaulas completamente operativas.
 
 
+
+Ejercicio 4
+-----------
+Una vez instalado el SO Ubuntu "Lucid" en /home/jaulas/lucid lo aislamos en una jaula chroot.
+
+![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot.png  "chroot")
+
+Además hacemos que se copie la carpeta proc del sistema anfitrión en nuestro SO enjaulado.
+Una vez hecho esto podemos probar a hacer top.
+
+![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot3.png  "chroot")
+
+Otra configuración interesante es la de instalar el paquete de lenguaje ya que nuestro idioma es el español hacemos:
+
+![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot4.png  "chroot")
+
+y ya tenemos configurado nuestro SO de dentro de la jaula. Para ver el significado de chroot hacemos pwd y nos aparece:
+
+![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot5.png  "chroot")
+
+lo cual quiere decir que chroot hace un cambio de directorio raíz al de la jaula sin poder ver el exterior de la misma y aislando los procesos. También haciendo top sobre el terminal del SO anfitrión podemos ver lo que se va ejecutando dentro de la jaula.
+
+Un programa interesante a tener es VIM ya que nos permite desde la propia terminal escribir guiones y por lo tanto modificar todos los ficheros que necesitemos.
+
+![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot6.png  "chroot")
+
+Ahora creamos un programa de python y lo lanzamos para ver el funcionamiento en la jaula.
+
+![chroot](https://github.com/javierGaliana/IV/raw/master/ejerciciosTema2/pics/chroot7s.png  "chroot")
+
+¡Ya podemos trabajar en la jaula!
